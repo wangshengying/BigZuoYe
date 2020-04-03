@@ -32,7 +32,7 @@ export default class Doc extends Component {
                             backgroundColor:'#eeeeee',
                             borderColor:'#ccc',
                             color:'#c9c9c9',
-                            width:400,
+                            width:250,
                             height:50,
                             borderRadius:10,
                         }}
@@ -67,6 +67,7 @@ export default class Doc extends Component {
                                     <Image source={require('../assets/icon/one.png')}/>
                                 </View>
                                 <Text style={style1.txt}>Oishi/上好佳玉米卷20包膨化休闲食品Oishi上好佳</Text>
+                                <Text style={style1.txt3}></Text>
                                 <Text style={style1.txt2}>36.00</Text>
                             </View>
                             {/* box2 */}
@@ -85,6 +86,7 @@ export default class Doc extends Component {
                                     <Image source={require('../assets/icon/one.png')}/>
                                 </View>
                                 <Text style={style1.txt}>Oishi/上好佳玉米卷20包膨化休闲食品Oishi上好佳</Text>
+                                <Text style={style1.txt3}></Text>
                                 <Text style={style1.txt2}>36.00</Text>
                             </View>
                             {/* box2 */}
@@ -103,6 +105,7 @@ export default class Doc extends Component {
                                     <Image source={require('../assets/icon/one.png')}/>
                                 </View>
                                 <Text style={style1.txt}>Oishi/上好佳玉米卷20包膨化休闲食品Oishi上好佳</Text>
+                                <Text style={style1.txt3}></Text>
                                 <Text style={style1.txt2}>36.00</Text>
                             </View>
                             {/* box2 */}
@@ -165,5 +168,9 @@ const style1 = StyleSheet.create({
 		marginLeft:'5%',
 		marginTop:'3%',
 		marginBottom:'5%'
-	}
+    },
+    txt3:{
+        width:"100%",
+        height:'3%',
+    }
 });

@@ -86,7 +86,7 @@ export default class Msg extends Component {
                             backgroundColor:'#fbb8b8',
                             borderColor:'#ccc',
                             color:'#c9c9c9',
-                            width:350,
+                            width:250,
                             height:40,
                             marginTop:5,
                             borderTopRightRadius:25,
