@@ -16,7 +16,6 @@ console.disableYellowBox = true;
 
 const App = () => {
 	useEffect(()=>{
-		AsyncStorage.clear();
 		SplashScreen.hide();
 	},[])
 	let [isLogin,setLogin] = useState(false);
